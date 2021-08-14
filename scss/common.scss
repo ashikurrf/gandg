@@ -346,7 +346,7 @@ body{
                         }
                         @media screen and (max-width: 991px){
                             .nav-link{
-                                font-size:20px ;
+                                font-size:15px ;
                                 font-weight: 600;
                             }
                         }
@@ -357,9 +357,9 @@ body{
                                         .nav-link{
                                             text-decoration: none;
                                             color: rgb(0, 0, 0);
-                                            font-size: 20px;
-                                            font-weight: 600;
-                                            padding: 5px 0px;                                            
+                                            font-size: 15px;
+                                            font-weight: 500;
+                                            padding: 2px 0px;                                            
                                         }
                                     }
                                 }
@@ -830,3 +830,26 @@ body{
  
 }
 /*************footer End*****************/
+//Scroll up///
+#arrow{
+    img{
+       height: 2%;
+       width: 2%;
+        position: fixed;
+        bottom: 80px;
+        right: 20px;
+    }
+    @media screen and (max-width: 575px){
+      a{
+        img{
+            height: 5%;
+            width: 5%;
+             position: fixed;
+             bottom: 80px;
+             right: 1px;
+         }
+      }
+
+    }
+
+}

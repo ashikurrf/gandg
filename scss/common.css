@@ -346,7 +346,7 @@ body .wrapper header .header-bottom .navbar .collapse .navbar-nav .nav-item .nav
 
 @media screen and (max-width: 991px) {
   body .wrapper header .header-bottom .navbar .nav-link {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
   }
 }
@@ -355,9 +355,9 @@ body .wrapper header .header-bottom .navbar .collapse .navbar-nav .nav-item .nav
   body .wrapper header .header-bottom .navbar .collapse .navbar-nav .nav-item .nav-link {
     text-decoration: none;
     color: black;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 5px 0px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 2px 0px;
   }
 }
 
@@ -765,4 +765,21 @@ body .wrapper header .header-bottom .navbar .collapse .navbar-nav .nav-item .nav
 }
 
 /*************footer End*****************/
+#arrow img {
+  height: 2%;
+  width: 2%;
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+}
+
+@media screen and (max-width: 575px) {
+  #arrow a img {
+    height: 5%;
+    width: 5%;
+    position: fixed;
+    bottom: 80px;
+    right: 1px;
+  }
+}
 /*# sourceMappingURL=common.css.map */
