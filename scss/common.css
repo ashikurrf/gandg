@@ -765,9 +765,9 @@ body .wrapper header .header-bottom .navbar .collapse .navbar-nav .nav-item .nav
 }
 
 /*************footer End*****************/
-#arrow img {
+#arrow a img {
   height: 2%;
-  width: 2%;
+  width: 1%;
   position: fixed;
   bottom: 80px;
   right: 20px;

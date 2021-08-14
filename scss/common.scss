@@ -832,13 +832,16 @@ body{
 /*************footer End*****************/
 //Scroll up///
 #arrow{
+   a{
+       
     img{
-       height: 2%;
-       width: 2%;
-        position: fixed;
-        bottom: 80px;
-        right: 20px;
-    }
+        height: 2%;
+        width: 1%;
+         position: fixed;
+         bottom: 80px;
+         right: 20px;
+     }
+   }
     @media screen and (max-width: 575px){
       a{
         img{
