@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 $main: #C53030;
 $tophead:#E0E0E0;
 $black:#000000;
 *{
     box-sizing: border-box;
-  
-    
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rajdhani', sans-serif; 
+    // font-family: 'Poppins', sans-serif;
 }
 body{
     .wrapper{
@@ -109,6 +109,8 @@ body{
                             li{
                                 display: inline-block;
                                 margin-left: 20px;
+                                font-weight: 600;
+                               
                                 a {
                                     text-decoration: none;
                                 .my-cart {
@@ -139,9 +141,84 @@ body{
                                    
                                 }
                             }
-                              
+                            .dropdown-toggle::after {
+                                content: none;
                             }
-                           
+                            .dropdown-menu{
+                                margin-top: 20px;
+                                width: 260px;
+                            ul{
+                                margin: 0px;
+                                padding: 0px;
+                                display: flex;
+                                text-align: center;
+                                li{
+                                
+                                   margin-left: 10px; 
+                                   margin-top: 5px;
+                                   margin-bottom: 5px;
+                                   display:inline-block;
+                                   h6{   
+                                       width: 90px;   
+                                    a{
+                                        text-decoration: none;
+                                        color: black;
+                                        display: block;
+                                        overflow: hidden;
+                                        text-overflow: ellipsis;
+                                        text-transform: capitalize;
+                                        white-space: nowrap;
+                                    }
+                                }
+                                   
+                                   span{
+                                       font-size: 12px;
+                                      float: left;
+                                      font-weight: 600;
+                                    
+                                   }
+                                   p{
+                                       margin: 0px;
+                                       font-size: 12px;
+                                       font-weight: 600;
+                                   }
+                                   del{
+                                       font-size: 12px;
+                                     
+                                   }
+                                
+                                }
+                                .product{
+                                a{
+                                    img{
+                                  height: 63px;
+                                  width: 65px;
+                                   }
+                                }
+                                }
+                                .delete{
+                                   a{
+                                    img{
+                                        height: 100%;
+                                        width: 100%;
+                                        text-align: center;
+                                        margin-left: 5px;
+                                       
+                                    }
+                                   }
+                                }
+                                border-bottom: 1px solid rgba(0, 0, 0, 0.562);
+                            }
+                            .view-cart{
+                               text-align: center;
+                               margin: 10px 0px;
+                               .btn{
+                                   background-color:$main ;
+                                   color:#FFFFFF ;
+                               }
+                            }
+                            }
+                            }
                         }
                     
                 }
@@ -168,8 +245,8 @@ body{
                                     width: 268px;
                                     height: 50px;
                                     color: white;
-                                    font-family: 'Poppins', sans-serif;
-                                    font-size: 18px;
+                                    // font-family: 'Poppins', sans-serif;
+                                    font-size: 25px;
                                     border-radius: 0px;
                                     img{
                                     margin-right: 10px;
@@ -184,6 +261,8 @@ body{
                                     .dropbtn{
                                         border: none;
                                         padding: 10px 24px;
+                                        font-weight: 600;
+                                        font-size: 20px;
                                         
                                         
                                     }
@@ -201,6 +280,7 @@ body{
                                         a {
                                             float: none;
                                             color: black;
+                                            font-weight: 600;
                                             padding: 12px 16px;
                                             text-decoration: none;
                                             display: block;
@@ -216,14 +296,13 @@ body{
                                     display: block;
                                   }
                             }  
-                            @media screen and (max-width: 991px){
+                            @media screen and (max-width: 767px){
                                 .btn{
                                     background-color: $main;
-                                    width: 150px;
+                                    width: 200px;
                                     height: 50px;
                                     color: white;
-                                    font-family: 'Poppins', sans-serif;
-                                    font-size: 12px;
+                                    font-size: 20px;
                                     border-radius: 0px;
                                     img{
                                     margin-right: 8px;
@@ -232,13 +311,18 @@ body{
                                     }
                             }
                             .dropdown-menu{
-                                width: 150px;
+                                width: 200px;
                                 .dropdown{
+                                    .dropbtn{
+                                        font-size: 15px;
+                                        
+                                        
+                                    }
                                     a{
                                         font-size: 10px;
                                     }
                                     .dropdown-content{
-                                        width: 150px;
+                                        width: 200px;
                                     }
                                 }
                             }
@@ -262,7 +346,8 @@ body{
                         }
                         @media screen and (max-width: 991px){
                             .nav-link{
-                                font-size:10px ;
+                                font-size:20px ;
+                                font-weight: 600;
                             }
                         }
                         @media screen and (max-width: 767px){
@@ -272,7 +357,8 @@ body{
                                         .nav-link{
                                             text-decoration: none;
                                             color: rgb(0, 0, 0);
-                                            font-size: 10PX;
+                                            font-size: 20px;
+                                            font-weight: 600;
                                             padding: 5px 0px;                                            
                                         }
                                     }
@@ -681,6 +767,10 @@ body{
                 margin: 10px 10px;
                 a{
                     text-decoration: none;
+                    img{
+                        height: 50%;
+                        width: 50%;
+                    }
                 }
             }
         }
@@ -707,7 +797,7 @@ body{
       .get-info{
           ul{
               li{
-                  font-size: 10px;
+                  font-size: 15px;
               }
           }
       }
@@ -728,10 +818,10 @@ body{
     .get-info{
         ul{
             li{
-                font-size: 8px;
+                font-size: 20px;
                 img{
-                    width:10px ;
-                    height: 11px;
+                    width:20px ;
+                    height: 21px;
                 }
             }
         }
