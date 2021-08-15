@@ -106,6 +106,27 @@ body{
                             list-style: outside none none;
                             margin: 0;
                             padding: 0;
+                            .user{
+                                a{
+                                    img{
+                                        border:  1px solid rgb(243, 8, 8);;
+                                        border-radius: 50%;
+                                        height: 30px;
+                                        width: 30px;
+                                        
+                                    }
+                                }
+                                .dropdown-menu{
+                                    margin-top: 20px;
+                                     width: 50px;
+                                     a{
+                                         text-decoration: none;
+                                         color: black;
+                                         font-weight: 500;
+
+                                     }
+                                }
+                            }
                             li{
                                 display: inline-block;
                                 margin-left: 20px;
@@ -140,6 +161,7 @@ body{
                                     }
                                    
                                 }
+                              
                             }
                             .dropdown-toggle::after {
                                 content: none;
@@ -627,6 +649,7 @@ body{
             background: #FFFFFF;
             box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.1);
             border-radius: 5px;
+            margin: 10px 0px;
         hr{
             margin: 0px;
         }
@@ -1303,3 +1326,30 @@ label.radio input:checked+span::after {
 }
 
 //start Reviews & Specification END /////
+/// related product//
+
+    .related-deal-bar{
+        background: #000000;
+        border-radius: 5px;
+        padding: 10px 10px;
+    
+     ul{
+         margin: 0px;
+         padding: 0px;
+         li{
+           display: inline-block;
+           p{
+               margin: 0px;
+               color: #FFFFFF;
+               font-size: 20px;
+           }
+           a{
+               text-decoration: none;
+               color: #FFFFFF;
+               font-size: 20px;
+           }
+         }
+     }
+    
+    }
+
