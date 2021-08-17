@@ -1739,6 +1739,11 @@ body .wrapper header .header-bottom .navbar .collapse .navbar-nav .nav-item .nav
   color: #FFFFFF;
 }
 
+.checkout .checkout-bar ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
 .checkout .order-table {
   height: 400px;
   overflow: auto;
@@ -1857,6 +1862,10 @@ body .wrapper header .header-bottom .navbar .collapse .navbar-nav .nav-item .nav
 
 .checkout .Shipping .info li p {
   margin: 0px;
+}
+
+.checkout .Shipping .info .bill span {
+  font-size: 20px;
 }
 
 .checkout .Shipping .info .bill .amount {

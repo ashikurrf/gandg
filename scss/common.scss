@@ -1903,6 +1903,10 @@ tr{
                margin: 0px;
                color: #FFFFFF;
            }
+           a{
+               text-decoration: none;
+               color: #FFFFFF;            
+           }
          }
      }
     }
@@ -2077,6 +2081,10 @@ tr{
          
        }
     .bill{
+
+        span{
+            font-size: 20px;
+        }
         .amount{
            float: right;
           
