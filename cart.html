@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/scss/owl.carousel.min.css">
     <link rel="stylesheet" href="./scss/owl.theme.default.min.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./scss/common.css">
 </head>
 <body>
@@ -124,10 +124,16 @@
                     </div>
                   
                 </div>
-        
-                            </li>
-                            <li><a href="/login.html"><img src="./img/icon/user.svg" alt=""><span class="my-cart"><span> <strong>Sign in</strong> Or</span><span> Join Our Site</span></span></a></li>                        
-                        </ul>
+                      </li>
+                        <!-- <li><a href="/login.html"><img src="./img/icon/user.svg" alt=""><span class="my-cart"><span> <strong>Sign in</strong> Or</span><span> Join Our Site</span></span></a></li>                         -->
+                        <li class="user dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown"><img src="./img/1.jpg" alt=""><span class="my-cart"><span> <strong>Ashikur Rahman</strong> </span></span></a>
+                          <div class="dropdown-menu text-center">
+                          <a href="userprofile.html">Manage Profile</a>
+                          <hr>
+                          <a href="">Logout</a>
+                          </div>
+                        </li>   
+                      </ul>
                     </div>
                 </div>
                 <!-- Cart Box End Here -->
@@ -145,7 +151,7 @@
                         <div class="dropdown">
                            <a class="dropdown-item dropbtn " href=""><img class="mr-4" src="./img/icon/acc.svg " alt="">Accessories</a>
                             <div class="dropdown-content  ">
-                                <a href="#">Samsung</a>
+                                <a href="productlist.html">Samsung</a>
                                 <a href="#">Xiaomi</a>
                                 <a href="#">Iphone</a>
                             </div>
@@ -154,7 +160,7 @@
                            
                             <a class="dropdown-item dropbtn " href=""><img class="mr-4" src="./img/icon/phone tabls.svg" alt=""> PHONE & Tablets</a>
                              <div class="dropdown-content ">
-                                 <a href="productlist.html">Samsung</a>
+                                 <a href="#">Samsung</a>
                                  <a href="#">Xiaomi</a>
                                  <a href="#">Iphone</a>
                              </div>
@@ -207,76 +213,110 @@
     </div>
       </header>
       <!--Navbar end-->
-      <!--Login Form-->
-      <div class="signup">
-          <div class="container">
-              <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div class="signup-img">
-                    <img src="./img/login and reg/undraw_Successful_purchase_re_mpig.svg" alt="">
+
+<div class="cart">
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="cart-bar">
+                    <ul>
+                      <li>
+                      <p>Cart</p>
+                      </li>
+                     
+                    </ul>
+                    </div>
+                <div class="order-table">
+                  <table class="table table-striped text-center">
+                    <thead>
+                      <tr>
+                      
+                        <th scope="col">Image</th>
+                        <th scope="col">Product</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Sub Total</th>
+                        <th scope="col">Remove</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="image"><a href=""><img src="./img/category/speaker.png" alt=""></a></td>
+                        <td class="product"><a href="">JBL Speaker 3.0</a></td>
+                        <td class="price"><span>4000</span> <br>
+                        <del>5000</del></td>
+                        <td class="quantity">
+                                <span class="minus"><i class="fa fa-minus"></i></span>
+                                <input type="text " value="1"/>
+                                <span class="plus"><i class="fa fa-plus"></i></span>
+                        </td>
+                        <td class="subtotal">8500</td>
+                        <td class="remove"><a href=""><img src="./img/icon/social/delete.svg" alt=""></a></td>
+                      </tr>
+                      <tr>
+                        <td class="image"><a href=""><img src="./img/category/speaker.png" alt=""></a></td>
+                        <td class="product"><a href="">JBL Speaker 3.0</a></td>
+                        <td class="price"><span>4000</span> <br>
+                          <del>5000</del></td></td>
+                        <td class="quantity">
+                                <span class="minus"><i class="fa fa-minus"></i></span>
+                                <input  type="text " value="1"/>
+                                <span class="plus"><i class="fa fa-plus"></i></span>
+                        </td>
+                        <td class="subtotal">8500</td>
+                        <td class="remove"><a href=""><img src="./img/icon/social/delete.svg" alt=""></a></td>
+                      </tr>
+                      <tr>
+                        <td class="image"><a href=""><img src="./img/category/speaker.png" alt=""></a></td>
+                        <td class="product"><a href="">JBL Speaker 3.0</a></td>
+                        <td class="price"><span>4000</span> <br>
+                          <del>5000</del></td></td>
+                        <td class="quantity">
+                                <span class="minus"><i class="fa fa-minus"></i></span>
+                                <input  type="text " value="1"/>
+                                <span class="plus"><i class="fa fa-plus"></i></span>
+                        </td>
+                        <td class="subtotal">8500</td>
+                        <td class="remove"><a href=""><img src="./img/icon/social/delete.svg" alt=""></a></td>
+                      </tr>
+                     
+                    </tbody>
+                  </table>
+    
                 </div>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-12">
-               <div class="signup-form">
-                <h2>Join Us :)</h2>
-                <p>please register to continue...</p>
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputtext">Name</label>
-                        <input type="text" class="form-control" id="exampleInputtext" aria-describedby="textHelp" placeholder="Enter your name" required>
-                      </div>
-                    <div class="form-group">
-                      <label for="exampleInputtext">Address</label>
-                      <input type="text" class="form-control" id="exampleInputtext" aria-describedby="textHelp" placeholder="Enter your address" required>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-8">
-                          <label for="inputCity">City</label>
-                          <input type="text" class="form-control" id="inputCity"required>
-                        </div>
-                        <div class="form-group col-md-4">
-                          <label for="inputZip">Zip</label>
-                          <input type="text" class="form-control" id="inputZip">
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <label for="exampleInputnumber">Phone</label>
-                        <input type="number" class="form-control" id="exampleInputnumber" aria-describedby="NumberHelp" placeholder="Enter your number">
-                      </div>
+              
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class=" total">
+            <ul>
+              <li class=" left"> <a href="index.html"  type="button"> CONTINUE SHOPPING </a>
+                <h5>ENTER YOUR DISCOUNT CODE</h5>
+                <form class="form-inline">
+                  <div class="form-group  mb-2">
+                    <input type="text" class="form-control" id="inputtext" placeholder="code">
+                  </div>
+                  <button type="submit" class="btn btn-dark mb-2">Submit</button>
+                </form>
+              </li>
+              <li class="right"><h1>CART TOTALS</h1>
+              <span>Product Price</span><span class="amount">TK 8000</span> <br>
+              <span>Discount %</span><span class="amount">TK 150</span> <br>
+              <span>Delivery</span><span class="amount">TK 80</span> <br>
+              <div class="bord"></div>
+              <span>TOTAL</span><span class="amount">TK 8000</span> <br>
+              <a href="checkout.html" class="btn " type="button"> Proceed to Checkout </a>
+            </li>
+            </ul>
+          
 
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="EmailHelp" placeholder="Enter your email">
-                      </div>
-                    <div class="form-group"id="show_hide_password">
-                      <label for="passward">Passward</label>
-                      <input type="password" class="form-control" id="passward" aria-describedby="passward" placeholder="Enter Passward" required>
-                      <div class="input-group-addon">
-                        <a href=""><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
-                      </div>
-                    </div>
-                    <div class="form-group"id="confirm_show_hide_password">
-                        <label for="passward">Confirm Passward</label>
-                        <input type="password" class="form-control" id="passward" aria-describedby="passward" placeholder="Enter Passward" required>
-                        <div class="input-group-addon2">
-                          <a href=""><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
-                        </div>
-                      </div>
-                    
-                
-                    <button type="submit" class="btn">SIGNUP</button>
-                  </form>
-                  <a href="login.html">Already Have An Account?</a>
-               </div>
-            </div>
-              </div>
+          </div> 
+         
+        </div>
 
-          </div>
+    </div>
+    </div>
+</div>
 
-      </div>
-      <!--Login form End-->
-
- 
 <!--footer-->
 
 <footer class="footer">
@@ -351,6 +391,25 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="./js/main.js"></script>
-</body>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script>
+  	$(document).ready(function() {
+			$('.minus').click(function () {
+				var $input = $(this).parent().find('input');
+				var count = parseInt($input.val()) - 1;
+				count = count < 1 ? 1 : count;
+				$input.val(count);
+				$input.change();
+				return false;
+			});
+			$('.plus').click(function () {
+				var $input = $(this).parent().find('input');
+				$input.val(parseInt($input.val()) + 1);
+				$input.change();
+				return false;
+			});
+		});
+    </script>
+  </body>
 </html>
