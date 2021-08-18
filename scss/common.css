@@ -1245,6 +1245,12 @@ body .wrapper header .header-bottom .navbar .collapse .navbar-nav .nav-item .nav
   padding-left: 35px;
 }
 
+@media screen and (max-width: 418px) {
+  .reviews .row ul li a {
+    font-size: 15px;
+  }
+}
+
 .related-deal-bar {
   background: #000000;
   border-radius: 5px;
