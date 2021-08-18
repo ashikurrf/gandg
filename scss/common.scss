@@ -381,6 +381,8 @@ body{
                         }
                         @media screen and (max-width: 767px){
                             .collapse{
+                                    z-index: 1049;
+                               
                                 .navbar-nav{
                                     .nav-item{
                                         .nav-link{
@@ -401,6 +403,10 @@ body{
         }
     }
 // Navbar End CSS//
+//banner// 
+
+//end//
+
 .cate-3{
   
   .cat-img{ 

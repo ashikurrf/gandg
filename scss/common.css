@@ -379,6 +379,9 @@ body .wrapper header .header-bottom .navbar .collapse .navbar-nav .nav-item .nav
 }
 
 @media screen and (max-width: 767px) {
+  body .wrapper header .header-bottom .navbar .collapse {
+    z-index: 1049;
+  }
   body .wrapper header .header-bottom .navbar .collapse .navbar-nav .nav-item .nav-link {
     text-decoration: none;
     color: black;
