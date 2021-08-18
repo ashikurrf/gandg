@@ -28,9 +28,42 @@ $(document).ready(function() {
         }
     });
 });
-//login page passaward show and hide  END//
+//END//
+// product cart counter//
+$(document).ready(function() {
+    $('.minus').click(function () {
+        var $input = $(this).parent().find('input');
+        var count = parseInt($input.val()) - 1;
+        count = count < 1 ? 1 : count;
+        $input.val(count);
+        $input.change();
+        return false;
+    });
+    $('.plus').click(function () {
+        var $input = $(this).parent().find('input');
+        $input.val(parseInt($input.val()) + 1);
+        $input.change();
+        return false;
+    });
+});
 
-//HOME PAGE SLIDER //
+//END//
+//scrol nav fixed js//
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("head-btm");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+};
+// END//
+
+//HOME PAGE SLIDER image//
 $(".owl-carousel").owlCarousel({
     loop: true,
     margin: 10,
@@ -53,4 +86,9 @@ $(".owl-carousel").owlCarousel({
         }
     }
 });
-//HOME PAGE SLIDER END
+//END//
+//single product page image change//
+function changeImage(a) {
+    document.getElementById("img").src=a;
+}
+// END//
