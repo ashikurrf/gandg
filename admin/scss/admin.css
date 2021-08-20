@@ -114,45 +114,17 @@ body {
   list-style-type: none;
 }
 
-.nav-bar {
-  background-color: #c53030;
-  height: 50px;
+#navbar {
+  background-color: #fff;
+  -webkit-box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.3);
 }
 
-.nav-bar ul {
-  margin: 0px;
-  padding: 0px 0px;
+#navbar #menuBtn, #navbar .logout {
+  cursor: pointer;
 }
 
-.nav-bar ul li {
-  display: inline-block;
-}
-
-.nav-bar ul .left {
-  color: #fff;
-}
-
-.nav-bar ul .left a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 30px;
-}
-
-.nav-bar ul .left span {
-  margin-left: 20px;
-}
-
-.nav-bar ul .left span i {
-  font-size: 30px;
-}
-
-.nav-bar ul .right {
-  float: right;
-}
-
-.nav-bar ul .right .dropdown a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 30px;
+#navbar .logout:hover {
+  color: #e41616;
 }
 /*# sourceMappingURL=admin.css.map */

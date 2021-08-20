@@ -100,38 +100,14 @@ body {
     }
 }
 //admin loginpage END///
-.nav-bar {
-    background-color: #c53030;
-    height: 50px;
-    ul {
-        margin: 0px;
-        padding: 0px 0px;
-        li {
-            display: inline-block;
-        }
-        .left {
-            color: #fff;
-            a {
-                text-decoration: none;
-                color: #fff;
-                font-size: 30px;
-            }
-            span {
-                margin-left: 20px;
-                i {
-                    font-size: 30px;
-                }
-            }
-        }
-        .right {
-            float: right;
-            .dropdown {
-                a {
-                    text-decoration: none;
-                    color: #fff;
-                    font-size: 30px;
-                }
-            }
-        }
+#navbar {
+    background-color: #fff;
+    box-shadow: 1px 0px 5px rgba(0,0,0,0.3);
+    #menuBtn, .logout {
+        cursor: pointer;
+    }
+
+    .logout:hover {
+        color: rgb(228, 22, 22);
     }
 }
