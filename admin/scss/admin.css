@@ -3,16 +3,31 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #fafbfa;
 }
 
 .admin-login {
-  margin-top: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
 }
 
 .admin-login .login-from {
-  -webkit-box-shadow: rgba(255, 255, 255, 0.3) 0px 19px 38px, rgba(252, 252, 252, 0.22) 0px 15px 12px;
-          box-shadow: rgba(255, 255, 255, 0.3) 0px 19px 38px, rgba(252, 252, 252, 0.22) 0px 15px 12px;
+  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
   padding: 20px 20px;
   border-radius: 10px;
   background-color: #fff;
@@ -38,7 +53,7 @@
 }
 
 .admin-login .login-from form .btn {
-  background-color: #C53030;
+  background-color: #c53030;
   color: #fff;
 }
 
@@ -83,20 +98,24 @@
 .fixed-bottom .footer ul {
   margin: 0px;
   padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .fixed-bottom .footer ul li {
-  display: inline-block;
-  color: black;
-  font-size: 10px;
-}
-
-.fixed-bottom .footer ul .right {
-  float: right;
+  font-size: 12px;
+  list-style-type: none;
 }
 
 .nav-bar {
-  background-color: #C53030;
+  background-color: #c53030;
   height: 50px;
 }
 
