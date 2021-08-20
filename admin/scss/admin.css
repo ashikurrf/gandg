@@ -1,8 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'Rajdhani', sans-serif;
+}
+
+.admin-login {
+  margin-top: 250px;
+}
+
+.admin-login .login-from {
+  -webkit-box-shadow: rgba(255, 255, 255, 0.3) 0px 19px 38px, rgba(252, 252, 252, 0.22) 0px 15px 12px;
+          box-shadow: rgba(255, 255, 255, 0.3) 0px 19px 38px, rgba(252, 252, 252, 0.22) 0px 15px 12px;
+  padding: 20px 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.admin-login .login-from form {
+  color: black;
 }
 
 .admin-login .login-from form input {
@@ -11,7 +28,112 @@
 
 .admin-login .login-from form .input-group-addon {
   position: absolute;
-  top: 10%;
-  right: 5%;
+  top: 52.5%;
+  right: 8%;
+}
+
+.admin-login .login-from form a {
+  text-decoration: none;
+  color: black;
+}
+
+.admin-login .login-from form .btn {
+  background-color: #C53030;
+  color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .admin-login {
+    margin-top: 500px;
+  }
+  .admin-login .login-from form .input-group-addon {
+    top: 52.5%;
+    right: 9%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .admin-login {
+    margin-top: 300px;
+  }
+  .admin-login .login-from form .input-group-addon {
+    top: 52.5%;
+    right: 11%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .admin-login {
+    margin-top: 200px;
+  }
+  .admin-login .login-from form .input-group-addon {
+    top: 52.5%;
+    right: 11%;
+  }
+}
+
+.fixed-bottom {
+  background-color: #fff;
+}
+
+.fixed-bottom .footer {
+  padding: 10px 0px;
+}
+
+.fixed-bottom .footer ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.fixed-bottom .footer ul li {
+  display: inline-block;
+  color: black;
+  font-size: 10px;
+}
+
+.fixed-bottom .footer ul .right {
+  float: right;
+}
+
+.nav-bar {
+  background-color: #C53030;
+  height: 50px;
+}
+
+.nav-bar ul {
+  margin: 0px;
+  padding: 0px 0px;
+}
+
+.nav-bar ul li {
+  display: inline-block;
+}
+
+.nav-bar ul .left {
+  color: #fff;
+}
+
+.nav-bar ul .left a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+}
+
+.nav-bar ul .left span {
+  margin-left: 20px;
+}
+
+.nav-bar ul .left span i {
+  font-size: 30px;
+}
+
+.nav-bar ul .right {
+  float: right;
+}
+
+.nav-bar ul .right .dropdown a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
 }
 /*# sourceMappingURL=admin.css.map */

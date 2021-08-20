@@ -1,8 +1,12 @@
-// @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 $main: #C53030;
 $tophead:#E0E0E0;
 $black:#000000;
+$font-primary: 'Poppins',Arial, sans-serif;
+$primary: #866ec7;
+$white:#fff;
+
 *{
     box-sizing: border-box;
     font-family: 'Rajdhani', sans-serif; 
@@ -10,15 +14,124 @@ $black:#000000;
 }
 //admin loginpage///
 .admin-login{
+
+margin-top: 250px;
     .login-from{
+        box-shadow: rgba(255, 255, 255, 0.3) 0px 19px 38px, rgba(252, 252, 252, 0.22) 0px 15px 12px;
+       padding: 20px 20px;
+       border-radius: 10px;
+       background-color: #fff;
         form{
             input{
                 position:relative;
             }
             .input-group-addon{
                 position: absolute;
-                top :10%;
-                right: 5%;
+                top :52.5%;
+                right: 8%;
+            }
+            color: rgb(0, 0, 0);
+            a{
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+            }
+            .btn{
+                background-color: $main;
+                color: #fff;
+            }
+        }
+    }
+    @media screen and (max-width: 1024px){
+        margin-top: 500px;
+        .login-from{
+            form{
+               
+                .input-group-addon{
+                    top :52.5%;
+                    right: 9%;
+                }
+                
+            }
+        }
+    }
+    @media screen and (max-width: 768px){
+        margin-top: 300px;
+        .login-from{
+            form{    
+                .input-group-addon{
+                   
+                    top :52.5%;
+                    right: 11%;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 414px){
+        margin-top: 200px;
+        .login-from{
+            form{    
+                .input-group-addon{
+                   
+                    top :52.5%;
+                    right: 11%;
+                }
+            }
+        }
+    }
+}
+.fixed-bottom {
+    background-color: #fff;
+.footer{
+    padding: 10px 0px;
+    ul{
+        margin: 0px;
+        padding: 0px;
+        li{
+          display: inline-block;
+          color: rgb(0, 0, 0);
+          font-size: 10px;
+        }
+        .right{
+         float: right;
+     }
+    }
+ }
+ 
+}
+//admin loginpage END///
+.nav-bar{
+    background-color: #C53030;
+    height: 50px;
+    ul{ 
+        margin: 0px;
+        padding: 0px 0px;
+        li{
+            display: inline-block;
+         
+        }
+        .left{
+          color: #fff;
+          a{
+              text-decoration: none;
+              color: #fff;
+              font-size:30px;
+          }
+          span{
+        margin-left: 20px;
+              i{
+                  font-size: 30px;
+               
+              }
+          }
+        }
+        .right{
+            float: right;
+            .dropdown{
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 30px;
+                }
             }
         }
     }
