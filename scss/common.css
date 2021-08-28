@@ -1199,7 +1199,7 @@ body .wrapper header .header-bottom .navbar .collapse .navbar-nav .nav-item .nav
 }
 
 .reviews .row .tab-content #specification {
-  height: 200px;
+  height: 350px;
   overflow: auto;
   text-align: left;
 }
@@ -1220,7 +1220,7 @@ body .wrapper header .header-bottom .navbar .collapse .navbar-nav .nav-item .nav
 }
 
 .reviews .row .tab-content #reviews {
-  height: 300px;
+  height: 350px;
   overflow: auto;
 }
 

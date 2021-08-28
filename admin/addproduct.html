@@ -170,6 +170,12 @@
                         </div>
                       </div>
                       <div class="form-group row">
+                        <label for="inputtext" class="col-sm-2 col-form-label">YouTube Url</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" id="inputtext" placeholder="Enter Product url">
+                        </div>
+                      </div>
+                      <div class="form-group row">
                         <label for="inputtext" class="col-sm-2 col-form-label">Keyword</label>
                         <div class="col-sm-10">
                           <input type="text" class="form-control" id="inputtext" placeholder="Enter Product name">
@@ -224,41 +230,64 @@
                           <a href="" class="btn btn-info dropdown-toggle" data-toggle="dropdown">info</a>
                           <div class="dropdown-menu">
                             <a class="dropdown-item update" href="#">Update</a>
-                            <a class="dropdown-item view" href="#">View</a>
-                            <a class="dropdown-item  delete" href="#">Delete</a>
+                            <a class="dropdown-item view" href="#" data-toggle="modal" data-target="#view">View</a>
+                            <a class="dropdown-item  delete" href="#"data-toggle="modal" data-target="#delete">Delete</a>
                           </div>
                         </td>
                       </tr>
-                      <tr>
-                        <td class="img"><img src="..//img/category/smer watch.png" alt=""></td>
-                        <td>Apple Watch Series 6 Sport Band </td>
-                        <td>2000</td>
-                        <td>212</td>
-                        <td>smart watch</td>
-                        <td class="dropdown dropleft action">
-                          <a href="" class="btn btn-info dropdown-toggle" data-toggle="dropdown">info</a>
-                          <div class="dropdown-menu">
-                            <a class="dropdown-item update" href="#">Update</a>
-                            <a class="dropdown-item view" href="#">View</a>
-                            <a class="dropdown-item  delete" href="#">Delete</a>
+                    <!-- The Modal -->
+                    <div class="modal fade" id="view">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">   
+                          <!-- Modal Header -->
+                          <div class="modal-header">
+                            <h4 class="modal-title">Product Details</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
                           </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="img"><img src="..//img/category/smer watch.png" alt=""></td>
-                        <td>Apple Watch Series 6 Sport Band </td>
-                        <td>2000</td>
-                        <td>212</td>
-                        <td>smart watch</td>
-                        <td class="dropdown dropleft action">
-                          <a href="" class="btn btn-info dropdown-toggle" data-toggle="dropdown">info</a>
-                          <div class="dropdown-menu">
-                            <a class="dropdown-item update" href="#" >Update</a>
-                            <a class="dropdown-item view" href="#">View</a>
-                            <a class="dropdown-item  delete" href="#">Delete</a>
+                          <!-- Modal body -->
+                          <div class="modal-body">
+                            <img src="../img/category/smer watch.png" alt="">
+                           <h5><strong>Name:</strong>  Apple  watch 3.0 </h5>
+                           <h5><strong>category:</strong> accessories,apple,watch</h5>
+                           <h5><strong>Buy price:</strong> TK  24500</h5>
+                           <h5><strong>Sell Price:</strong> TK 32500</h5>
+                           <h5><strong>Discount%:</strong>  10%</h5>
+                           <h5><strong>Color:</strong> red,black,green</h5>
+                           <h5><strong>Quantity:</strong> 200</h5>
+                           <h5><strong>Overview:</strong>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit numquam placeat ad modi, </h5>
+                           <h5><strong>Discription:</strong>  necessitatibus reprehenderit quasi porro natus facere iste dolorum! Repudiandae rem dolorem fugit ducimus animi excepturi impedit molestias.</h5>
                           </div>
-                        </td>
-                      </tr>
+                          <!-- Modal footer -->
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                     <!-- The Modal END -->
+                         <!-- The Modal -->
+                    <div class="modal fade" id="delete">
+                      <div class="modal-dialog modal-sm">
+                        <div class="modal-content">   
+                          <!-- Modal Header -->
+                          <div class="modal-header">
+                            <h4 class="modal-title">Product Delete</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          </div>
+                          <!-- Modal body -->
+                          <div class="modal-body">
+                          <h2>Want to delete the product?</h2>
+                          </div>
+                          <!-- Modal footer -->
+                          <div class="modal-footer text-center">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Yes</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                     <!-- The Modal END -->
+            
                     </tbody>
                   </table>
                   </div>
