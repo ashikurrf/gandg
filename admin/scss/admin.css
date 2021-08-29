@@ -255,11 +255,6 @@ body {
   float: right;
 }
 
-#main .container-fluid .product .product-table .product-list .table-list {
-  overflow: auto;
-  height: 800px;
-}
-
 #main .container-fluid .product .product-table .product-list .table-list .table thead {
   text-align: center;
   background-color: black;
@@ -372,6 +367,15 @@ body {
 
 #main .container-fluid .order .order-pending .order-list .table-list .table tbody {
   text-align: center;
+}
+
+#main .container-fluid .order .order-pending .order-list .table-list .table tbody tr .img {
+  width: 10%;
+}
+
+#main .container-fluid .order .order-pending .order-list .table-list .table tbody tr .img img {
+  height: 60px;
+  width: 60px;
 }
 
 #main .container-fluid .order .order-pending .order-list .table-list .table tbody tr .action a {

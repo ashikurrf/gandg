@@ -938,7 +938,147 @@ body{
 }
 
 ///Login END///
-
+//Forgot Your Password//
+.password{
+    .password-bar{
+        margin: 20px 0px;
+        background: #000000;
+        border-radius: 5px;
+        padding: 10px 10px;
+    
+     ul{
+         margin: 0px;
+         padding: 0px;
+         li{
+           display: inline-block;
+           p{
+               margin: 0px;
+               color: #FFFFFF;
+           }
+           a{
+            text-decoration: none;
+            color: #FFFFFF;            
+        }
+         }
+     }
+    }
+     input::-webkit-outer-spin-button,
+                 input::-webkit-inner-spin-button {
+                 -webkit-appearance: none;
+                 margin: 0;
+                         }
+    .password-btn{
+        float: right;
+        a{
+            text-decoration: none;
+            background-color: black;
+            color: #FFFFFF;
+            padding: 10px 10px;
+            border-radius: 5px;
+        }
+    }
+    
+}
+//Forgot  END//
+//otp //
+.otp{
+    .otp-bar{
+        margin: 20px 0px;
+        background: #000000;
+        border-radius: 5px;
+        padding: 10px 10px;
+    
+     ul{
+         margin: 0px;
+         padding: 0px;
+         li{
+           display: inline-block;
+           p{
+               margin: 0px;
+               color: #FFFFFF;
+           }
+           a{
+            text-decoration: none;
+            color: #FFFFFF;            
+        }
+         }
+     }
+    }
+     input::-webkit-outer-spin-button,
+                 input::-webkit-inner-spin-button {
+                 -webkit-appearance: none;
+                 margin: 0;
+                         }
+    .otp-btn{
+        float: right;
+        a{
+            text-decoration: none;
+            background-color: black;
+            color: #FFFFFF;
+            padding: 10px 10px;
+            border-radius: 5px;
+        }
+    }
+    
+}
+//OTP  END//
+//change password//
+.c-password{
+    .c-password-bar{
+        margin: 20px 0px;
+        background: #000000;
+        border-radius: 5px;
+        padding: 10px 10px;
+    
+     ul{
+         margin: 0px;
+         padding: 0px;
+         li{
+           display: inline-block;
+           p{
+               margin: 0px;
+               color: #FFFFFF;
+           }
+           a{
+            text-decoration: none;
+            color: #FFFFFF;            
+        }
+         }
+     }
+    }
+    .password-from{
+        input{
+            position:relative;
+        }
+        .input-group-addon{
+            position: absolute;
+            top :39%;
+            right: 5%;
+        }
+       .input-group-addon2{
+           position: absolute;
+           top :83.5%;
+           right: 5%;
+       }
+       a{
+        text-decoration: none;
+        color: #000000;
+       }
+    }
+ 
+    .c-password-btn{
+        float: right;
+        a{
+            text-decoration: none;
+            background-color: black;
+            color: #FFFFFF;
+            padding: 10px 10px;
+            border-radius: 5px;
+        }
+    }
+    
+}
+// change password end//
 //signup///
 .signup{
     margin: 40px 0px;
@@ -1504,6 +1644,23 @@ label.radio input:checked+span::after {
                 }
             }
         }
+        .modal{
+            .modal-body{
+                table{
+                    tbody{
+                        tr{
+                            .img{
+                                width: 10%;
+                               img{
+                                  height:60px;
+                                  width: 60px;
+                               }
+                            }
+                        }
+                    }
+                }
+            }
+        }
         @media screen and (max-width:1199px){
 
             .order-table{
@@ -1909,7 +2066,43 @@ tr{
 }
 }
 // end Cart //
-
+//address set //
+.address{
+    .address-bar{
+        margin: 20px 0px;
+        background: #000000;
+        border-radius: 5px;
+        padding: 10px 10px;
+    
+     ul{
+         margin: 0px;
+         padding: 0px;
+         li{
+           display: inline-block;
+           p{
+               margin: 0px;
+               color: #FFFFFF;
+           }
+           a{
+            text-decoration: none;
+            color: #FFFFFF;            
+        }
+         }
+     }
+    }
+    .process-btn{
+        float: right;
+        a{
+            text-decoration: none;
+            background-color: black;
+            color: #FFFFFF;
+            padding: 10px 10px;
+            border-radius: 5px;
+        }
+    }
+    
+}
+//address end//
 // Checkout//
 .checkout{
     .checkout-bar{

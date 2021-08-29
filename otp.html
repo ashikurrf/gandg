@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GoodsandGadgets</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./scss/common.css">
 </head>
 <body>
@@ -122,10 +122,9 @@
                     </div>
                   
                 </div>
-        
-                            </li>
-                            <li><a href="/login.html"><img src="./img/icon/user.svg" alt=""><span class="my-cart"><span> <strong>Sign in</strong> Or</span><span> Join Our Site</span></span></a></li>                        
-                        </ul>
+                      </li>
+                        <li><a href="/login.html"><img src="./img/icon/user.svg" alt=""><span class="my-cart"><span> <strong>Sign in</strong> Or</span><span> Join Our Site</span></span></a></li>                        
+                      </ul>
                     </div>
                 </div>
                 <!-- Cart Box End Here -->
@@ -143,7 +142,7 @@
                         <div class="dropdown">
                            <a class="dropdown-item dropbtn " href=""><img class="mr-4" src="./img/icon/acc.svg " alt="">Accessories</a>
                             <div class="dropdown-content  ">
-                                <a href="#">Samsung</a>
+                                <a href="productlist.html">Samsung</a>
                                 <a href="#">Xiaomi</a>
                                 <a href="#">Iphone</a>
                             </div>
@@ -152,7 +151,7 @@
                            
                             <a class="dropdown-item dropbtn " href=""><img class="mr-4" src="./img/icon/phone tabls.svg" alt=""> PHONE & Tablets</a>
                              <div class="dropdown-content ">
-                                 <a href="productlist.html">Samsung</a>
+                                 <a href="#">Samsung</a>
                                  <a href="#">Xiaomi</a>
                                  <a href="#">Iphone</a>
                              </div>
@@ -205,69 +204,45 @@
     </div>
       </header>
       <!--Navbar end-->
-      <!--Login Form-->
-      <div class="signup">
-          <div class="container">
-              <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div class="signup-img">
-                    <img src="./img/login and reg/undraw_Successful_purchase_re_mpig.svg" alt="">
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-12">
-               <div class="signup-form">
-                <h2>Join Us :)</h2>
-                <p>please register to continue...</p>
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputtext">Name</label>
-                        <input type="text" class="form-control" id="exampleInputtext" aria-describedby="textHelp" placeholder="Enter your name" required>
-                      </div>
-                    <div class="form-group">
-                      <label for="exampleInputtext">Address</label>
-                      <input type="text" class="form-control" id="exampleInputtext" aria-describedby="textHelp" placeholder="Enter your address" required>
+
+<div class="otp">
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="otp-bar">
+                    <ul>
+                      <li>
+                      <p>Check OTP</p>
+                      </li>
+                     
+                    </ul>
                     </div>
-                      <div class="form-group">
-                        <label for="exampleInputnumber">Phone</label>
-                        <input type="number" class="form-control" id="exampleInputnumber" aria-describedby="NumberHelp" placeholder="Enter your number">
-                      </div>
-
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="EmailHelp" placeholder="Enter your email">
-                      </div>
-                    <div class="form-group"id="show_hide_password">
-                      <label for="passward">Passward</label>
-                      <input type="password" class="form-control" id="passward" aria-describedby="passward" placeholder="Enter Passward" required>
-                      <div class="input-group-addon">
-                        <a href=""><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
-                      </div>
+                  <div class="col-sm-8 offset-sm-2">
+                    <div class="password-from">
+                        <h5>Please enter your  OTP.</h5>
+                        <div class="form-group">
+                            <label for="exampleInputtext">Phone</label>
+                            <input type="number" class="form-control" id="exampleInputtext" aria-describedby="textHelp" value="01796983339">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputtext">OTP</label>
+                            <input type="text" class="form-control" id="exampleInputtext" aria-describedby="textHelp" placeholder="Enter your OTP" required>
+                          </div>
                     </div>
-                    <div class="form-group"id="confirm_show_hide_password">
-                        <label for="passward">Confirm Passward</label>
-                        <input type="password" class="form-control" id="passward" aria-describedby="passward" placeholder="Enter Passward" required>
-                        <div class="input-group-addon2">
-                          <a href=""><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
-                        </div>
-                      </div>
-                    
-                
-                    <button type="submit" class="btn">SIGNUP</button>
-                  </form>
-                  <a href="login.html">Already Have An Account?</a>
-               </div>
-            </div>
-              </div>
+                   <div class="otp-btn">
+                    <a href="#"><i class="fa fa-repeat mr-2" aria-hidden="true"></i>Send Again</a>
+                    <a href="./changepassword.html">Submit</a>
+                   </div>
+                  </div>
+        </div>
+     
+    </div>
+    </div>
+</div>
 
-          </div>
-
-      </div>
-      <!--Login form End-->
-
- 
 <!--footer-->
 
-<footer class="footer">
+<footer class="footer ">
   <div class="info-footer">
     <div class="container">
       <div class="row">
@@ -339,6 +314,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="./js/main.js"></script>
-</body>
+    <script src="/js/main.js"></script>
+  </body>
 </html>

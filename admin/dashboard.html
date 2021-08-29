@@ -30,8 +30,15 @@
   <div class="root-wrapper">
     <div id="sidebar"class="dropdown">
       <a class="dashbord" href="./dashboard.html"><i class="fa fa-tachometer" aria-hidden="true"></i>Dashboard</a>
-      <a class="Product" href="./addproduct.html"><i class="fa fa-plus-square" aria-hidden="true"></i>ADD Products</a>
-      <a class="category " href="./category.html"><i class="fa fa-address-book"></i>ADD Category</a>
+      <a class="Product" href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-plus-square" aria-hidden="true"></i>ADD Products <i class="fa fa-chevron-down" aria-hidden="true" style="float: right;"></i></a>
+      <ul class="collapse list-unstyled" id="homeSubmenu">
+        <li>
+            <a href="./addproduct.html">Add Product</a>
+        </li>
+        <li>
+            <a href="./ptable.html">Product Table</a>
+        </li>
+      </ul><a class="category " href="./category.html"><i class="fa fa-address-book"></i>ADD Category</a>
       <a class="order" href="./order.html"><i class="fa fa-book" aria-hidden="true"></i>Order</a>
       <a class="category" href="./image.html"><i class="fa fa-picture-o" aria-hidden="true"></i>Image</a>
       <a class="category" href="./customer.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i>Customer</a>
