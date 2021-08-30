@@ -1040,13 +1040,13 @@ body .wrapper header .header-bottom .navbar .collapse .navbar-nav .nav-item .nav
 
 .signup .row .signup-form form .input-group-addon {
   position: absolute;
-  top: 72.5%;
+  top: 69%;
   right: 5%;
 }
 
 .signup .row .signup-form form .input-group-addon2 {
   position: absolute;
-  top: 83.5%;
+  top: 81.5%;
   right: 5%;
 }
 
@@ -1072,12 +1072,12 @@ body .wrapper header .header-bottom .navbar .collapse .navbar-nav .nav-item .nav
   }
   .signup .row .signup-form form .input-group-addon {
     position: absolute;
-    top: 75%;
+    top: 69%;
     right: 5%;
   }
   .signup .row .signup-form form .input-group-addon2 {
     position: absolute;
-    top: 85%;
+    top: 81%;
     right: 5%;
   }
 }
