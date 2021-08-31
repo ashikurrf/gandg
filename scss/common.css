@@ -1437,6 +1437,43 @@ body .wrapper header .header-bottom .navbar .collapse .navbar-nav .nav-item .nav
   font-size: 20px;
 }
 
+.not-found .related-deal-bar {
+  background: #000000;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 20PX 0PX;
+}
+
+.not-found .related-deal-bar ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.not-found .related-deal-bar ul li {
+  display: inline-block;
+}
+
+.not-found .related-deal-bar ul li p {
+  margin: 0px;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.error {
+  margin-top: 80px;
+}
+
+.error img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 424px) {
+  .error {
+    margin-top: 200px;
+  }
+}
+
 .user_profile .update-form h2 {
   text-align: center;
   padding: 10px 0px;

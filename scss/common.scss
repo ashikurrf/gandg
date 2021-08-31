@@ -1517,6 +1517,41 @@ label.radio input:checked+span::after {
     
     }
 /// related product end//
+//PRODUCT NOT FOUND//
+.not-found{
+    .related-deal-bar {
+    background: #000000;
+        border-radius: 5px;
+        padding: 10px 10px;
+        margin: 20PX 0PX;
+        ul{
+            margin: 0px;
+            padding: 0px;
+            li{
+              display: inline-block;
+              p{
+                  margin: 0px;
+                  color: #FFFFFF;
+                  font-size: 20px;
+              }
+             
+            }
+        }
+    }
+}
+//END//
+//error//
+.error{
+    margin-top: 80px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    @media screen and (max-width:424px){
+        margin-top: 200px;
+    }
+}
+//end error/
 //User Profile update & order list//
 
 .user_profile{
